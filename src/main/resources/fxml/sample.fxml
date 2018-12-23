@@ -72,24 +72,17 @@
                            <TitledPane alignment="TOP_LEFT" text="会员管理">
                                <VBox minHeight="100" spacing="10" style=" -fx-background-color: rgb(40,43,51)">
                                    <!--点击该按钮，右侧切换图书类别数据-->
-                                   <Button text="食品类别" styleClass="menu-btn" />
-                                   <Button text="分类统计" styleClass="menu-btn"/>
+
                                </VBox>
                            </TitledPane>
                            <TitledPane alignment="TOP_LEFT" text="统计">
                                <VBox minHeight="100" spacing="10" style=" -fx-background-color: rgb(40,43,51)">
                                    <!--点击该按钮，右侧切换图书类别数据-->
-                                   <Button text="食品类别" styleClass="menu-btn" />
-                                   <Button text="分类统计" styleClass="menu-btn"/>
+                                   <Button text="商品统计" styleClass="menu-btn" />
+                                   <Button text="销售统计" styleClass="menu-btn"/>
                                </VBox>
                            </TitledPane>
-                           <TitledPane alignment="TOP_LEFT" text="收银">
-                               <VBox minHeight="100" spacing="10" style=" -fx-background-color: rgb(40,43,51)">
-                                   <!--点击该按钮，右侧切换图书类别数据-->
-                                   <Button text="食品类别" styleClass="menu-btn" />
-                                   <Button text="分类统计" styleClass="menu-btn"/>
-                               </VBox>
-                           </TitledPane>
+
                            <TitledPane alignment="TOP_LEFT" text="系统维护">
                                <VBox minHeight="130" spacing="10" style=" -fx-background-color: rgb(40,43,51)">
                                    <Button text="系统初始化" styleClass="menu-btn"/>
