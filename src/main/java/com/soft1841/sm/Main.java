@@ -7,13 +7,20 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+import java.net.URL;
+
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/sample.fxml"));
-        primaryStage.setTitle("超市管理界面");
-       primaryStage.setScene(new Scene(root, 1920, 1020));
+    public void start(Stage primaryStage) throws Exception {
+        primaryStage.setTitle("Admin Login");
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/main.fxml"));
+        Parent root = fxmlLoader.load();
+        Scene scene = new Scene(root,1920,1020);
+        scene.getStylesheets().add("/css/style.css");
+        primaryStage.setMaximized(true);
+//     primaryStage.getIcons().add(new Image("/img/logo.png"));
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 
